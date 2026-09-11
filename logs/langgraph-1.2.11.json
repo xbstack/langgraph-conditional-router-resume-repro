@@ -1,0 +1,69 @@
+{
+  "langgraph_case": "conditional-router-resume",
+  "results": [
+    {
+      "calls": {
+        "node": 2,
+        "route": 1,
+        "sink": 1
+      },
+      "failure_location": "node",
+      "first_error": "temporary node failure",
+      "pending_after": [],
+      "pending_before": [
+        "node"
+      ],
+      "result": {
+        "value": 2
+      },
+      "saver": "memory"
+    },
+    {
+      "calls": {
+        "node": 2,
+        "route": 1,
+        "sink": 1
+      },
+      "failure_location": "node",
+      "first_error": "temporary node failure",
+      "pending_after": [],
+      "pending_before": [
+        "node"
+      ],
+      "result": {
+        "value": 2
+      },
+      "saver": "sqlite"
+    },
+    {
+      "calls": {
+        "node": 1,
+        "route": 1,
+        "sink": 0
+      },
+      "failure_location": "route",
+      "first_error": "temporary route failure",
+      "pending_after": [],
+      "pending_before": [],
+      "result": {
+        "value": 1
+      },
+      "saver": "memory"
+    },
+    {
+      "calls": {
+        "node": 1,
+        "route": 1,
+        "sink": 0
+      },
+      "failure_location": "route",
+      "first_error": "temporary route failure",
+      "pending_after": [],
+      "pending_before": [],
+      "result": {
+        "value": 1
+      },
+      "saver": "sqlite"
+    }
+  ]
+}

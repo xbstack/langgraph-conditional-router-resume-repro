@@ -1,0 +1,41 @@
+{
+  "results": [
+    {
+      "calls": {
+        "node": 1,
+        "router_node": 2,
+        "selector": 1,
+        "sink": 1
+      },
+      "first_error": "temporary routing dependency failure",
+      "pending_after": [],
+      "pending_before": [
+        "router_node"
+      ],
+      "result": {
+        "route_decision": "sink",
+        "value": 2
+      },
+      "saver": "memory"
+    },
+    {
+      "calls": {
+        "node": 1,
+        "router_node": 2,
+        "selector": 1,
+        "sink": 1
+      },
+      "first_error": "temporary routing dependency failure",
+      "pending_after": [],
+      "pending_before": [
+        "router_node"
+      ],
+      "result": {
+        "route_decision": "sink",
+        "value": 2
+      },
+      "saver": "sqlite"
+    }
+  ],
+  "workaround": "move-fallible-routing-into-node"
+}
