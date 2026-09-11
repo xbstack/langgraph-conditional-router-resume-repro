@@ -49,5 +49,5 @@ As checked on 2026-09-11, upstream issue #8834 remained open and this repository
 ## References
 
 - Upstream issue: https://github.com/langchain-ai/langgraph/issues/8834
-- XBSTACK English write-up: https://www.xbstack.com/en/ai/langgraph-conditional-router-resume-skips-downstream/
-- XBSTACK Chinese write-up: https://www.xbstack.com/ai/langgraph-conditional-router-resume-skips-downstream/
+- XBSTACK English write-up: https://www.xbstack.com/en/ai/langgraph-conditional-router-resume-skips-downstream/?utm_source=github&utm_medium=referral&utm_campaign=langgraph_conditional_router_resume&utm_content=repository_readme&ref=github
+- XBSTACK Chinese write-up: https://www.xbstack.com/ai/langgraph-conditional-router-resume-skips-downstream/?utm_source=github&utm_medium=referral&utm_campaign=langgraph_conditional_router_resume&utm_content=repository_readme_zh&ref=github
